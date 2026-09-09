@@ -21,13 +21,13 @@ questions= [
 " choices": ("A", "5", "B", "6", "C", "7", "D", "8" }
 "Answer": "C") 
 ]
-
+print(random.choice(questions))
 input:(( "question": "What is the capital city of Kenya?",
 "choices":
  {"A": "Mombasa","B": "Nairobi","C": "Kisumu","D": "Nakuru" },
  "Answer": "B")),
 if input == "B":
- print ( int(10) "Correct!") 
+ print (+=10) "Correct!") 
 else:
  print(int(0) "Incorrect!"),
 
@@ -63,5 +63,7 @@ if input == "C":
  print(int(10) "correct!")
 else:   
  print(int(0) "Incorrect!")
+  score = 0
+  
 
 

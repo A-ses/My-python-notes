@@ -1,9 +1,8 @@
 ## Weekly project
 # list of questions
 
-questions= [ 
-
-("question": (("What is the capital city of Kenya?",))
+questions = 
+[ ("question": (("What is the capital city of Kenya?",))
 "choices":
  ("A": "Mombasa","B": "Nairobi","C": "Kisumu","D": "Nakuru"  ,
  "Answer": "B" ),
@@ -19,13 +18,12 @@ questions= [
 
 ("question": "how many days are there  in a week?",)
 " choices": ("A", "5", "B", "6", "C", "7", "D", "8" 
-"Answer": "C") )
-]
+"Answer": "C") )]
 
 print:(( "question": "What is the capital city of Kenya?",
 "choices":
  "(A": "Mombasa","B": "Nairobi","C": "Kisumu","D": "Nakuru" ),
- "Answer": "B"),
+ "Answer": "B")),
 if input == "B":
  print( int(10) "Correct!") 
 else:
